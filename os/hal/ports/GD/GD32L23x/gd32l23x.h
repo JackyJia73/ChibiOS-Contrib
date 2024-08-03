@@ -41,6 +41,9 @@ extern "C" {
 #error "Please select the target GD32L23x device used in your application (in gd32l23x.h file)"
 #endif /* undefine GD32L23x tip */
 
+
+#define CPU_CLOCK   (64000000)
+
 /* define value of high speed crystal oscillator (HXTAL) in Hz */
 #if !defined  (HXTAL_VALUE)
 #define HXTAL_VALUE              8000000

@@ -9,7 +9,7 @@ STARTUPINC = $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC \
              $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC/ld \
              $(CHIBIOS_CONTRIB)/os/common/startup/ARMCMx/devices/GD32L23x \
              $(CHIBIOS)/os/common/ext/ARM/CMSIS/Core/Include \
-             $(CHIBIOS_CONTRIB)/os/common/ext/CMSIS/GD32/GD32L23x
+             $(CHIBIOS_CONTRIB)/os/common/ext/CMSIS/GD32/GD32L23x \
 
 STARTUPLD  = $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC/ld
 STARTUPLD_CONTRIB  = $(CHIBIOS_CONTRIB)/os/common/startup/ARMCMx/compilers/GCC/ld
