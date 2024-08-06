@@ -42,7 +42,7 @@ extern "C" {
 #endif /* undefine GD32L23x tip */
 
 
-#define CPU_CLOCK   (64000000)
+#define CPU_CLOCK   GD32_SYSCLK
 
 /* define value of high speed crystal oscillator (HXTAL) in Hz */
 #if !defined  (HXTAL_VALUE)
